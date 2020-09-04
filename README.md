@@ -15,6 +15,9 @@ Make sure you have python and pip installed by typing in the following 2 command
 4.	Now, type the following command:
     	pip install -r requirements.txt
 
+	For Unix/Mac users, please remove or comment out the following:
+		pywin32==227
+		pywin32-ctypes==0.2.0
 This above will take a while to install all the necessary dependencies, once that is done type the following command:
 	pip install pyqt5
 
@@ -25,6 +28,8 @@ After downloading that, you have all the dependencies necessary to run the viewe
 
 For example:
  	python Viewer.py C:\NolanLab\Viewer_testProcessedData reg001_montage.tif
+	
+	For Unix/Mac users, not that the direction of slashes are different on unix based systems. You can edit Viewer.py to correct this.
 
 6.	The above script would now open the viewer with the reg001_montage.tif file open based on the markers specified in channelNames.txt present in the processed folder.
 
