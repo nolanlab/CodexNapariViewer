@@ -29,7 +29,7 @@ After downloading that, you have all the dependencies necessary to run the viewe
 For example:
  	python Viewer.py C:\NolanLab\Viewer_testProcessedData reg001_montage.tif
 	
-	For Unix/Mac users, not that the direction of slashes are different on unix based systems. You can edit Viewer.py to correct this.
+	For Unix/Mac users, note that the direction of slashes are different on unix based systems. You can edit Viewer.py to correct this.
 
 6.	The above script would now open the viewer with the reg001_montage.tif file open based on the markers specified in channelNames.txt present in the processed folder.
 
